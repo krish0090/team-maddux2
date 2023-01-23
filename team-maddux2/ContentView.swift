@@ -15,14 +15,18 @@ struct ContentView: View {
                     
                 }
                 .foregroundColor(.blue)
-                .background(.black)
                 .fontDesign(.serif)
-                .font(.system(size: 40))
+                .font(.system(size: 50))
+                
+                .frame(width: 200, height: 100)
+                .background(.black)
+                .cornerRadius(20)
                 Text("Team Maddux")
                     .foregroundColor(.cyan)
                     .background(.black)
                     .fontDesign(.serif)
-                    .font(.system(size: 50))
+                    .font(.system(size: 65))
+                    .cornerRadius(20)
                 
             }
             
