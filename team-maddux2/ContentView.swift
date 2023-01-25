@@ -14,21 +14,36 @@ struct ContentView: View {
                 Button("Refresh"){
                     
                 }
-                .foregroundColor(.blue)
+                .foregroundColor(Color(uiColor: .blue))
                 .fontDesign(.serif)
-                .font(.system(size: 50))
-                
-                .frame(width: 200, height: 100)
-                .background(.black)
+                .font(.system(size: 45))
+                .frame(width: 160, height: 75)
+                .background(Color(uiColor: .cyan))
                 .cornerRadius(20)
                 Text("Team Maddux")
-                    .foregroundColor(.cyan)
-                    .background(.black)
+                    .foregroundColor(Color(uiColor: .cyan))
+                    
                     .fontDesign(.serif)
-                    .font(.system(size: 65))
+                    .font(.system(size: 60))
+                    .frame(width: 450, height: 95)
+                    .background(.blue)
                     .cornerRadius(20)
+                    .underline()
+                    .bold()
+                Button("Edit"){
+                    
+                }
+                .foregroundColor(Color(uiColor: .blue))
+                .fontDesign(.serif)
+                .font(.system(size: 45))
+                .frame(width: 160, height: 75)
+                .background(Color(uiColor: .cyan))
+                .cornerRadius(20)
                 
             }
+            
+            
+            
             
         }
     
