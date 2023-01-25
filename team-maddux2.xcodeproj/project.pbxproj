@@ -11,6 +11,8 @@
 		279A8DD7297EF04C005CD7DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279A8DD6297EF04C005CD7DE /* ContentView.swift */; };
 		279A8DD9297EF04D005CD7DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279A8DD8297EF04D005CD7DE /* Assets.xcassets */; };
 		279A8DDC297EF04D005CD7DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279A8DDB297EF04D005CD7DE /* Preview Assets.xcassets */; };
+		9B34686629819064001DADA7 /* loading screen 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B34686529819064001DADA7 /* loading screen 2.swift */; };
+		9B3F5EEB297EF6D200C74862 /* Loading Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F5EEA297EF6D200C74862 /* Loading Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		279A8DD6297EF04C005CD7DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		279A8DD8297EF04D005CD7DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		279A8DDB297EF04D005CD7DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B34686529819064001DADA7 /* loading screen 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "loading screen 2.swift"; sourceTree = "<group>"; };
+		9B3F5EEA297EF6D200C74862 /* Loading Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Loading Screen.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				279A8DD4297EF04C005CD7DE /* team_maddux2App.swift */,
 				279A8DD6297EF04C005CD7DE /* ContentView.swift */,
 				279A8DD8297EF04D005CD7DE /* Assets.xcassets */,
+				9B3F5EEA297EF6D200C74862 /* Loading Screen.swift */,
+				9B34686529819064001DADA7 /* loading screen 2.swift */,
 				279A8DDA297EF04D005CD7DE /* Preview Content */,
 			);
 			path = "team-maddux2";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B3F5EEB297EF6D200C74862 /* Loading Screen.swift in Sources */,
+				9B34686629819064001DADA7 /* loading screen 2.swift in Sources */,
 				279A8DD7297EF04C005CD7DE /* ContentView.swift in Sources */,
 				279A8DD5297EF04C005CD7DE /* team_maddux2App.swift in Sources */,
 			);
