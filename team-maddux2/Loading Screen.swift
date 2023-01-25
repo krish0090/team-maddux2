@@ -8,15 +8,28 @@
 import SwiftUI
 
 struct Loading_Screen: View {
+    var width: CGFloat = 200
+    var height: CGFloat = 20
+    var percent: CGFloat = 69
+    var color1 = Color(uiColor: .magenta)
+    var color2 = Color(uiColor: .blue)
+    
     var body: some View {
+        let multiplier = width / 100
+        
         ZStack(alignment: .leading) {
-            RoundedRectangle(cornerRadius: 20, style: .continuous)
-                .frame(width: 200, height: 20)
+            RoundedRectangle(cornerRadius: height, style: .continuous)
+                .frame(width: width, height: height)
             .foregroundColor(Color.black.opacity(0.1))
             
-            RoundedRectangle(cornerRadius: 20, style: .continuous)
-                .frame(width: 100, height: 20)
-                .background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
+            RoundedRectangle(cornerRadius: height, style: .continuous)
+                .frame(width: percent * multiplier, height: height)
+                .background(
+                    LinearGradient(gradient: Gradient(colors: [color1, color2]), startPoint: .leading, endPoint: .trailing)
+                        .clipShape(RoundedRectangle(cornerRadius: height, style: .continuous))
+                
+                )
+                .foregroundColor(.clear)
         }
     }
 }
