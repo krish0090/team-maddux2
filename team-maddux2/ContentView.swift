@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var editNavigate = false
+
     var body: some View {
         
-            
                 VStack {
                     HStack {
                         
@@ -36,7 +37,9 @@ struct ContentView: View {
                         //
                         //                }
                         
-                        NavigationLink("Edit", destination: ContentView2())
+                        Button("Edit"){
+                            editNavigate = true
+                        }
                             .foregroundColor(Color(uiColor: .blue))
                             .fontDesign(.serif)
                             .font(.system(size: 45))
@@ -60,9 +63,10 @@ struct ContentView: View {
                     
                 }
             
-            
+                .navigate(to: ContentView2(), when: $editNavigate)
             .padding()
         }
+
     
 }
 extension View {
