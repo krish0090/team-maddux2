@@ -12,7 +12,7 @@ struct team_maddux2App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.colorScheme, .light)
+                .environment(\.colorScheme, .dark)
         }
     }
 }
